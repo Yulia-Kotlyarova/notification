@@ -1,0 +1,82 @@
+button,
+input {
+    outline: none;
+}
+
+.app {
+    padding: 30px 20px;
+}
+.app-header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: #cccccc;
+    border: 1px solid black;
+}
+
+.app-bell {
+    width: 30px;
+}
+
+.app-btn-box {
+    position: relative;
+    padding: 15px 0;
+    max-width: 300px;
+}
+
+.app-btn,
+.app-input-btn {
+    padding: 10px;
+    background-color: #cccccc;
+    border: 1px solid black;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+.app-btn {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.app-notice-btn {
+    position: relative;
+    background-color: transparent;
+    border: none;
+}
+.app-notice-counter {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -10px;
+    right: -10px;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+button,
+.app-notice-btn:hover,
+.app-notice-counter:hover {
+    cursor: pointer;
+}
+
+.app-input-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    max-width: 500px;
+}
+input {
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.app-input-btn {
+    width: 150px;
+}
